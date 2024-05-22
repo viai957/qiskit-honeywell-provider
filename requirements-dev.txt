@@ -1,4 +1,4 @@
-pylint==2.4.4
+pylint==2.7.0
 pycodestyle
 Sphinx>=2.1
 sphinx-rtd-theme>=0.4.0
@@ -6,3 +6,4 @@ sphinx-tabs>=1.1.11
 sphinx-autodoc-typehints
 stestr>=2.5.0
 reno
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
